@@ -1,5 +1,6 @@
 // 150 JS EXERCISES WITH SOLUTIONS
 
+
 // 1 Write a JavaScript program to get the current date.
 
 // const date = new Date();
@@ -111,5 +112,52 @@
 
 // }
 
+
+
+// ****************************************************************************************************************
 // 9. Write a JavaScript program to calculate multiplication and division of two numbers (input from user)
+
+// let firstInput = document.getElementById('first-input')
+// let secondInput = document.getElementById('second-input')
+
+// const multiplyEl = document.getElementById('multiply')
+// const divideEl = document.getElementById('divide')
+
+// const result = document.getElementById('result')
+
+
+// multiplyEl.addEventListener('click',()=>{
+
+//     let firstValue=Number(firstInput.value)
+//     let secondValue=Number(secondInput.value)
+
+//     if(isNaN(firstValue) || isNaN(secondValue)){
+//         result.innerHTML = ':-P'
+        
+//     }else{
+
+//         result.innerHTML=(firstValue*secondValue)
+        
+//     }
+// })
+
+// divideEl.addEventListener('click',()=>{
+//     let firstValue=Number(firstInput.value)
+//     let secondValue=Number(secondInput.value)
+
+//     if(isNaN(firstValue) || isNaN(secondValue)){
+//         result.innerHTML = ':-{'
+//     }else if(secondValue==0){
+//         result.innerHTML = '-_-'
+//     }else{
+//         result.innerHTML=(firstValue/secondValue)
+//     }
+    
+// })
+
+// 
+
+
+// ****************************************************************************************************************
+// 10Write a JavaScript program to convert temperatures to and from Celsius, Fahrenheit.
 
