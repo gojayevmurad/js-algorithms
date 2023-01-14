@@ -78,7 +78,7 @@
 //  matches with guess number, the program will display a message "Good Work" otherwise display a message "Not matched"
 
 // let a = Math.floor(Math.random()*10)
-// let b = prompt('enter')
+// let b = Number(prompt('enter'))
 
 // if(b==a){
 //     console.log('Good Work')
@@ -238,12 +238,10 @@
 // ****************************************************************************************************************
 // 17  Write a JavaScript program to find the largest of three given integers
 
-// let integers = [Number(prompt('first')),Number(prompt('second')),Number(prompt('third'))]
 
-
-// let a = 100;
-// let b = 150;
-// let c = 200;
+// let a = Number(prompt('first'));
+// let b = Number(prompt('second'));
+// let c = Number(prompt('third'));
 
 // const checkNumbers = (a, b , c) =>{
 //     if(a>b && a>c){
@@ -259,3 +257,43 @@
 // console.log(checkNumbers(a,b,c))
 
 
+// ****************************************************************************************************************
+// Write a JavaScript program to find a value which is nearest to 100 from two different given integer values.
+
+// let a = Number(prompt('first'));
+// let b = Number(prompt('second'));
+
+// let c = a
+// let d = b
+
+// a>100? c-= 100: c = 100-c
+// b>100? d-= 100: d= 100-d
+
+// if(c>d){
+//     console.log('second');
+// }else if(d>c){
+//     console.log('first')
+// }else{
+//     console.log('SAME');
+// }
+
+// ****************************************************************************************************************
+// Write a JavaScript program to find the larger number from the two given positive integers, the two numbers are in the range 40..60 inclusive.  
+
+
+// let num1 = 100;
+// let num2 = 70;
+
+
+// const checkNumbers = (num1, num2)=>{
+
+//     if(num1>=60 || num1<=40 || num2>=60 || num2<=40 ) return false;
+    
+//     if (a>b) return 'first num is greater than second one';
+//     if (b>a) return 'second num is greater than first one';
+
+// }
+
+// console.log(checkNumbers(num1, num2))
+
+// ****************************************************************************************************************
