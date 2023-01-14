@@ -190,5 +190,72 @@
 
 // console.log(changeChar(word));
 
+// ****************************************************************************************************************
+// 14 Write a JavaScript program to create a new string from a given string taking the last 3 characters and added at both the front and back. The string length must be 3 or more.
+
+// let word = prompt('...')
+
+// const changeWord = (word)=>{
+//     if( word.length<3 ) return false
+//     let lastChars = word.slice(word.length-3, word.length)
+
+//     return (lastChars+word+lastChars)
+// }
+
+// console.log(changeWord(word))
 
 // ****************************************************************************************************************
+// 15 Write a JavaScript program to check whether a string starts with 'Java' and false otherwise.
+
+// let word = prompt('...');
+
+// const check = (word) => {
+
+//   if (word.slice(0, 4).toLocaleLowerCase() != "java" || word.length<4) return false;
+
+//   return true;
+// };
+
+// console.log(check(word))
+
+// ****************************************************************************************************************
+// 16  Write a JavaScript program to check whether a string "Script" presents at 5th (index 4) position in a given string, if "Script" presents in the string return the string without "Script" otherwise return the original one.
+
+// let word = prompt();
+
+// const checkWord = (word) => {
+        
+//   let index = word.indexOf("script");
+
+//   if (index == 4) return word.slice(0, index);
+
+//    return word;
+// };
+
+// console.log(checkWord(word));
+
+
+// ****************************************************************************************************************
+// 17  Write a JavaScript program to find the largest of three given integers
+
+// let integers = [Number(prompt('first')),Number(prompt('second')),Number(prompt('third'))]
+
+
+// let a = 100;
+// let b = 150;
+// let c = 200;
+
+// const checkNumbers = (a, b , c) =>{
+//     if(a>b && a>c){
+//         return a;
+//     }else if(b>a && b>c){
+//         return b;
+//     }else if(c>a && c>b){
+//         return c;
+//     }    
+// }
+
+
+// console.log(checkNumbers(a,b,c))
+
+
