@@ -1,6 +1,5 @@
 // 150 JS EXERCISES WITH SOLUTIONS
 
-
 // 1 Write a JavaScript program to get the current date.
 
 // const date = new Date();
@@ -34,19 +33,14 @@
 
 // console.log(s)
 
-
 // ****************************************************************************************************************
 // 5. Write a JavaScript program to rotate the string 'Hello World' in right direction by periodically removing one letter from the end of the string and attaching it to the front
 
 // let element = document.getElementById("hello-world");
 
-
 // function changeText() {
 //   let changedElement = element.innerText;
 
-
-
-  
 //   // IMP
 //     let impText= changedElement.slice(length - 1) + changedElement.slice(0, length - 1)
 
@@ -77,7 +71,6 @@
 //     }
 // }
 
-
 // ****************************************************************************************************************
 
 // 7.Write a JavaScript program where the program takes a random integer
@@ -93,13 +86,11 @@
 //     console.log('Not matched')
 // }
 
-
 // ****************************************************************************************************************
 //  8.Write a JavaScript program to calculate days left until next Christmas.
 
 // let currentTime = new Date()
 // let nextChristmas = new Date()
-
 
 // if(currentTime.getMonth()==11 && currentTime.getDate()==25){
 //     console.log('Today');
@@ -112,8 +103,6 @@
 
 // }
 
-
-
 // ****************************************************************************************************************
 // 9. Write a JavaScript program to calculate multiplication and division of two numbers (input from user)
 
@@ -125,7 +114,6 @@
 
 // const result = document.getElementById('result')
 
-
 // multiplyEl.addEventListener('click',()=>{
 
 //     let firstValue=Number(firstInput.value)
@@ -133,11 +121,11 @@
 
 //     if(isNaN(firstValue) || isNaN(secondValue)){
 //         result.innerHTML = ':-P'
-        
+
 //     }else{
 
 //         result.innerHTML=(firstValue*secondValue)
-        
+
 //     }
 // })
 
@@ -152,12 +140,55 @@
 //     }else{
 //         result.innerHTML=(firstValue/secondValue)
 //     }
-    
+
 // })
 
-// 
+//
+
+// ****************************************************************************************************************
+// 10 Write a JavaScript program to get the website URL (loading page).
+
+// console.log(document.URL)
+
+// ****************************************************************************************************************
+// 11Write a JavaScript program to create a new string adding "Py" in front of a given string. If the given string begins with "Py" then return the original string.
+
+// let value = prompt('...')
+
+// if(value.slice(0,2).toLocaleLowerCase()=='py'){
+//     console.log(value);
+// }else{
+//      console.log('py'.concat(value))
+// }
+
+// ****************************************************************************************************************
+//12 Write a JavaScript program to remove a character at the specified position of a given string and return the new string.
+
+// let word = prompt('STRING....')
+// let num = Number(prompt('NUM'))
+
+// let finalWord = word.slice(0,num)+ word.slice(num+1,word.length)
+
+// console.log(finalWord);
+
+// ****************************************************************************************************************
+//13 Write a JavaScript program to create a new string from a given string changing the position of first and last characters. The string length must be greater than or equal to 1
+
+// let lastChar = word[word.length-1];
+// let firstChar = word[0]
+// let valuableWord = word.slice(1, word.length-1)
+// return lastChar+valuableWord+firstChar
+
+// let word = prompt('...')
+
+// function changeChar(word) {
+//   let lastChar = word[word.length-1];
+//   let firstChar = word[0]
+//   let valuableWord = word.slice(1, word.length-1)
+//   return lastChar+valuableWord+firstChar
+// }
+
+// console.log(changeChar(word));
 
 
 // ****************************************************************************************************************
-// 10Write a JavaScript program to convert temperatures to and from Celsius, Fahrenheit.
-
